@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: gtsmxagn
+  host: gtsmxagn
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-wm
+  buildpack: php_buildpack
